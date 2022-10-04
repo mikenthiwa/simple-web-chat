@@ -9,11 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@emotion/babel-preset-css-prop": "^10.0.14",
+    "@emotion/core": "^10.0.16",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@types/classnames": "^2.2.9",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.3.2",
     "next": "12.3.1",
+    "next-redux-wrapper": "^8.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.4",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
+    "@emotion/core": "^11.0.0",
+    "@zeit/next-css": "^1.0.1",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1"
   }
